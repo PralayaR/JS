@@ -1,0 +1,150 @@
+
+
+  @media only screen and (max-width: 600px) {
+    .container {
+        font-family: 'Open Sans', sans-serif;
+        display: flex; /* or inline-flex */
+        flex-direction: column;
+        padding: 1rem 0.5rem;
+        height: 100vh;
+        background-color: #0B8EC7;
+      }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .container {
+        font-family: 'Open Sans', sans-serif;
+        display: flex; /* or inline-flex */
+        flex-direction: column;
+        padding: 1rem 0.5rem;
+        height: 100vh;
+        background-color: #0B8EC7;
+      }
+  }
+
+
+  @media only screen and (min-width: 768px) {
+    .container {
+        font-family: 'Open Sans', sans-serif;
+        display: flex; /* or inline-flex */
+        flex-direction: column;
+        padding: 1rem 8rem;
+        height: 100vh;
+        background-color: #0B8EC7;
+      }
+  }
+
+  @media only screen and (min-width: 992px) {
+    .container {
+        font-family: 'Open Sans', sans-serif;
+        display: flex; /* or inline-flex */
+        flex-direction: column;
+        padding: 1rem 8rem;
+        height: 100vh;
+        background-color: #0B8EC7;
+      }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .container {
+        font-family: 'Open Sans', sans-serif;
+        display: flex; /* or inline-flex */
+        flex-direction: column;
+        padding: 1rem 28rem;
+        height: 100vh;
+        background-color: #0B8EC7;
+      }
+  }
+
+.chevron{
+  color:  #0B8EC7;
+  padding-left: 0.2rem;
+}
+
+.chevron-cash{
+    padding-right: 0.2rem;
+    color:  #0B8EC7;
+  }
+
+  .data-container {
+      background-color: white;
+  }
+
+  .card-left {
+    display: flex; 
+    width: 50%;
+    padding: 0.5rem;
+  }
+
+.row-name{
+font-weight: 800;
+}
+
+.account-font{
+  font-size: 14px;
+  flex:1
+}
+
+  .card {
+   // margin: 1rem;
+   align-items: center;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    border-color: grey;
+  }
+
+.card-account{
+    display: flex; 
+    align-items: stretch;
+    flex-direction: row;
+    
+}
+.header {
+    cursor: pointer;
+}
+  .card-right  {
+    padding: 0.5rem;
+    display: flex; 
+    width: 50%;
+    flex-direction: column;
+  }
+
+  .grayed {
+      background-color: #EFEFEF;
+  }
+
+  .to-right {
+    margin-left: auto;
+  }
+
+  .load-more-card {
+      cursor: pointer;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.7rem 0;
+    font-weight: 500;
+  }
+
+.today {
+  color: grey;
+}
+
+.title {
+    color: black;
+    font-weight: 700;
+  }
+
+  .title-blue {
+    color: #1874B2;
+}
+
+  .success {
+      color: green;
+    font-size: 14px;
+  }
+  .fail {
+      color: red;
+  }
